@@ -9,10 +9,12 @@
 
 int main(void)
 {
-	char upper;
+	char upplow;
 
-	for (upper = 'A'; upper <= 'Z'; upper++)
-		putchar(upper);
+	for (upplow = 'a'; upplow <= 'z'; upplow++)
+		putchar(upplow);
+	for (upplow = 'A'; upplow <= 'Z'; upplow++)
+		putchar(upplow);
 	putchar('\n');
 
 	return (0);
