@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - program entry point
+ * main - progam entry point
  *
- * Return: 0 Always (Success)
+ * Retuen: 0 Always (Success)
  */
 int main(void)
 {
 	int d;
 
-	for (d = 0; d <= 9; d++)
+	for (d = '0'; d <= '9'; d++)
 		putchar(d);
 	putchar('\n');
 
