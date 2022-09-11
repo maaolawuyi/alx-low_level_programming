@@ -10,6 +10,6 @@
 int main(void)
 {
 	write(STDOUT_FILENO, "and that piece of art is useful
-			\n - Dora korpar, 2015-10-19\n", 59);
+			\" - Dora korpar, 2015-10-19\n", 59);
 	return (1);
 }
