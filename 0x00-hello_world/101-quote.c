@@ -3,9 +3,9 @@
 #include <unistd.h>
 
 /**
- * main - Progra entry point
+ * main - Program entry point
  *
- * Return:Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
