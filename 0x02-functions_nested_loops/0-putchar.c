@@ -1,5 +1,5 @@
-#include <main.h>
-/**
+#include "main.h"
+/*
  * main - Check discription
  * Discription: program that prints _putchar, followed by a new line.
  * Return: 0.
