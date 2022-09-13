@@ -1,7 +1,7 @@
 #ifndef MAAOLAWUYI_H
 #define MAAOLAWUYI_H
 
-/**
+/*
  * File: maaolawuyi.h
  * Disc: Header file containing declaration of functions
  *       use in the 0x02-function_nested_loop directory.
