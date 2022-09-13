@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <main.h>
-#include <unistd.h>
 /**
  * main - Check discription
  * Discription: program that prints _putchar, followed by a new line.
