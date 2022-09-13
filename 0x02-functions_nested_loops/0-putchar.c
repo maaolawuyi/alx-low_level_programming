@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * main - Check discription
- * Discription: program that prints _putchar, followed by a new line.
- * Return: 0.
+/**
+ * main - program print _putchar follow by new line
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
