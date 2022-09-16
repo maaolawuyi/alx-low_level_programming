@@ -6,9 +6,8 @@
  * Disc: Header file containing declaration of functions
  * use in the 0x04-More function_more_nested_loop directory.
  *
- *
- *
  */
+
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
@@ -21,7 +20,4 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 
-
-#endiif
-
-
+#endif
