@@ -1,5 +1,5 @@
 #ifndef MAAOLAWUYI_H
-define MAAOLAWUYI_H
+#define MAAOLAWUYI_H
 
 #include <stdio.h>
 
