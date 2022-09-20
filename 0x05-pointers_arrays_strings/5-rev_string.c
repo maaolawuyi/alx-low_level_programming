@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_string a function the reverse string
+ * rev_string - a function the reverse string
  * follow by new line
  * @s: input character
  * Return: Nothing.
@@ -16,7 +16,7 @@ void rev_string(char *s)
 	while (i < len--)
 	{
 		sw = s[i];
-		s[i++] = s[i];
+		s[i++] = s[len];
 		s[len] = sw;
 	}
 }
