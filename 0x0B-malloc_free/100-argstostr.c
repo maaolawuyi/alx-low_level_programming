@@ -10,7 +10,10 @@
 char *argstostr(int ac, char **av)
 {
 	char *ptStr;
-	int count, i, j, k;
+	int count, i, j, k = 0;
+
+	if (ac == 0 || av == NULL)
+		return (NULL);
 
 	for (i = 0, count = 0; i < ac; i++)
 	{
@@ -20,7 +23,7 @@ char *argstostr(int ac, char **av)
 	}
 	count++;
 
-	ptStr = malloc(count * sizeof(char));
+	ptStr = malloc(sizeof(char) * count + 1);
 	if (ptStr == NULL)
 		return (NULL);
 
