@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 
 	ptStr = malloc(count * sizeof(char));
 	if (ptStr == NULL)
-		return NULL;
+		return (NULL);
 
 	for (i = 0, k = 0; i < ac; i++)
 	{
@@ -33,5 +33,6 @@ char *argstostr(int ac, char **av)
 		}
 	}
 	ptStr[k] = '\0';
-       return (ptStr);	
+	return (ptStr);
+
 }
