@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - program that prints its own opcodes
+ * main - program prints its own opcodes
  * @argc: number of arguments
  * @argv: array of arguments
- *
  * Return: Always 0 (Success)
  */
 
