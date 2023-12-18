@@ -4,8 +4,9 @@
 /**
  * binary_to_uint - convert a binary number to an unsigned int
  * @b: char string
- * Return: converted number or 0 if there are unconvertable 
+ * Return: converted decimal number or 0 if there is an unconvertable char
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int tot, pow;
@@ -25,6 +26,5 @@ unsigned int binary_to_uint(const char *b)
 		if (b[len] == '1')
 			tot += pow;
 	}
-
 	return (tot);
 }
